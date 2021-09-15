@@ -48,7 +48,7 @@ h6 {
 }
 
 .bg-btn {
-  background-color: #118ab2;
+  background-color: #07bdf9;
 }
 
 .btn-border {
@@ -61,6 +61,10 @@ h6 {
 
 .logo-text {
   color: #07bdf9;
+}
+
+.bg-image {
+  background-color: #07bdf9;
 }
 
 /* Fixed Social Media Styles */
