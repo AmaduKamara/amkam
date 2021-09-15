@@ -64,19 +64,45 @@ h6 {
 }
 
 /* Fixed Social Media Styles */
-.layout-main{
+.layout-main {
   position: relative;
 }
 
-.social-medias{
-  width: 60px;
-  height: 200px;
-  background: #fff;
-  padding: 20px;
+.social-medias {
+  width: 70px;
+  height: 300px;
+  background: #07bcf932;
   position: absolute;
-  top: 40%;
+  top: 30%;
   right: 0;
   margin-right: 14%;
   position: fixed;
 }
 
+/* Responsive Navbar */
+.mobile-menu {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100% - 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .nav-menu {
+    display: none;
+  }
+}

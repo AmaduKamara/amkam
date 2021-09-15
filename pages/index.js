@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import heroImage from "../public/images/Amadu Kamara.jpg";
 import Check from "../styles/components/icons/Check";
+import Navbar from "../styles/components/Navbar/Navbar";
 
 export default function Home() {
   return (
