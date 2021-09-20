@@ -35,6 +35,13 @@ const Navbar = () => {
             <li className="mx-5">
               <Link href="/">
                 <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                  Services
+                </a>
+              </Link>
+            </li>
+            <li className="mx-5">
+              <Link href="/">
+                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                   Portfolio
                 </a>
               </Link>

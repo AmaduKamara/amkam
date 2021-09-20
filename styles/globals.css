@@ -63,9 +63,6 @@ h6 {
   color: #07bdf9;
 }
 
-.bg-image {
-  background-color: #07bdf9;
-}
 
 /* Fixed Social Media Styles */
 .layout-main {
@@ -79,7 +76,7 @@ h6 {
   position: absolute;
   top: 30%;
   right: 0;
-  margin-right: 14%;
+  margin-right: 12%;
   position: fixed;
 }
 
@@ -108,5 +105,14 @@ h6 {
   }
   .nav-menu {
     display: none;
+  }
+
+  .social-medias {
+    width: 50px;
+    height: 200px;
+    top: 20%;
+    right: 0;
+    margin-right: 3%;
+    position: fixed;
   }
 }
