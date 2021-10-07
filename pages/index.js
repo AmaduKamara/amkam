@@ -7,6 +7,8 @@ import ArrowRight from "../components/icons/ArrowRight";
 
 import heroImage from "../public/images/Amadu Kamara.jpg";
 import amkam from "../public/images/Amkam.jpg";
+import onlineLearningPortal from "../public/images/portfolio-images/Online Learning Portal.png";
+import cubeRestaurant from "../public/images/portfolio-images/CUBE Restaurant Website.png";
 import ArrowTop from "../components/icons/ArrowTop";
 
 export default function Home() {
@@ -25,7 +27,9 @@ export default function Home() {
         {/* Hero Setction */}
         <section className="grid grid-cols-1 md:grid-cols-2 my-12">
           <div className="pt-10 order-last px-12 md:px-0">
-            <h4 className="logo-text text-2xl">Hello!</h4>
+            <h4 className="logo-text text-lg tracking-widest uppercase">
+              Hello!
+            </h4>
             <h1 className="font-semibold h-text-color text-4xl md:text-5xl lg:text-7xl my-2">
               I'm Amadu Kamara
             </h1>
@@ -35,20 +39,16 @@ export default function Home() {
                   <Check />
                 </div>
                 <span className="text-xl md:text-2xl text-gray-300">
-                  Frontend Developer
+                  Web designer
                 </span>
               </li>
               <li className="flex items-center mb-5 text-xl">
                 <div className="bg-gray-100 h-text-color rounded-full p-2 mr-4 text-2xl">
                   <Check />
                 </div>
-                <span className="text-xl md:text-2xl text-gray-300">Web designer</span>
-              </li>
-              <li className="flex items-center mb-5 text-xl">
-                <div className="bg-gray-100 h-text-color rounded-full p-2 mr-4 text-2xl">
-                  <Check />
-                </div>
-                <span className="text-xl md:text-2xl text-gray-300">UI/UX designer</span>
+                <span className="text-xl md:text-2xl text-gray-300">
+                  UI/UX designer
+                </span>
               </li>
               <li className="flex items-center mb-5 text-xl">
                 <div className="bg-gray-100 h-text-color rounded-full p-2 mr-4 text-2xl">
@@ -91,7 +91,9 @@ export default function Home() {
         <section className="mt-24 grid">
           <div className="flex justify-start items-center">
             <div className="w-full md:w-1/5">
-              <h1 className="text-5xl font-semibold">About Me</h1>
+              <h1 className="text-5xl font-semibold tracking-widest">
+                About Me
+              </h1>
             </div>
             <div
               style={{
@@ -105,7 +107,6 @@ export default function Home() {
 
           {/* About Amadu Kamara (Amkam) */}
           <div className="grid grid-cols-1 md:grid-cols-2 mt-4">
-
             <div className="mr-16">
               <p className="leading-loose text-justify text-lg text-gray-300">
                 Hello! My name is Amadu Kamara, commonly known as Samuel Amkam,
@@ -125,97 +126,122 @@ export default function Home() {
                 develop a professional website.
               </p>
               <div className="mt-8 font-semibold tracking-wider">
-                <h3 className="text-3xl">
+                <h3 className="text-4xl logo-text">
                   Here are few of my stacks I've been working with recently:
                 </h3>
                 <div className="grid grid-cols-2 mt-2 md:grid-cols-3 lg:grid-cols-4">
-
                   <ul className="mr-8">
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">HTML & CSS</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        HTML & CSS
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">JavaScript</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        JavaScript
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">WordPress</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        WordPress
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Webflow</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Webflow
+                      </span>
                     </li>
                   </ul>
 
                   <ul className="mr-8">
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">React</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        React
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Vue</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Vue
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">TailwindCSS</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        TailwindCSS
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Bootstrap</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Bootstrap
+                      </span>
                     </li>
                   </ul>
 
                   <ul className="mr-8">
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Node</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Node
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">GraphQL</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        GraphQL
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">GitHub</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        GitHub
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Bootstrap</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Bootstrap
+                      </span>
                     </li>
                   </ul>
 
                   <ul>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Adobe XD</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Adobe XD
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Figma</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Figma
+                      </span>
                     </li>
                     <li className="flex my-3">
                       <ArrowRight />
-                      <span className="text-sm md:text-lg text-gray-300">Photoshop</span>
+                      <span className="text-sm md:text-lg text-gray-300">
+                        Photoshop
+                      </span>
                     </li>
                   </ul>
-
                 </div>
               </div>
             </div>
 
-            <div
-              className="mr-32 pr-6 pb-4 rounded-md mt-4 w-10/12"
-            >
+            <div className="mr-32 pr-6 pb-4 rounded-md mt-4 w-10/12">
               <Image
                 src={amkam}
                 alt="Samuel Amkam"
                 className="shadow-4xl rounded-md"
               />
             </div>
-
           </div>
         </section>
 
@@ -223,7 +249,9 @@ export default function Home() {
         <section className="mt-24">
           <div className="flex justify-start items-center">
             <div className="w-1/5">
-              <h1 className="text-5xl font-semibold">Portfolio</h1>
+              <h1 className="text-5xl font-semibold tracking-widest">
+                Portfolio
+              </h1>
             </div>
             <div
               style={{
@@ -233,6 +261,132 @@ export default function Home() {
               }}
               className="w-4/5 hidden sm:block"
             ></div>
+          </div>
+
+          {/* First Portfolio Item */}
+          <div className="flex mt-16">
+            <div className="w-3/5 rounded-md">
+              <Image
+                src={cubeRestaurant}
+                alt="Cube Restaurant"
+                className="shadow-4xl rounded-md"
+              />
+            </div>
+            <div className="w-2/5 -ml-40 z-10">
+              <div className="mt-10 flex justify-end">
+                <h1 className="text-3xl logo-text">
+                  Restaurant Food Delivery Website
+                </h1>
+              </div>
+              <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
+                <p className="text-lg text-gray-100">
+                  A project based on creating awareness for businesses around
+                  Sierra Leone making their online presence possible. CUBE
+                  restaurant, a local restaurant was chosen for which this food
+                  order and delivery website was built.
+                </p>
+              </div>
+              <div className="mt-8">
+                <ul className="flex justify-end">
+                  <li className="text-lg mx-3">HTML & CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Second Portfolio Item */}
+          <div className="flex mt-16">
+            <div className="w-2/5 -mr-40 z-10">
+              <div className="mt-10">
+                <h1 className="text-3xl logo-text">Online Learning Portal</h1>
+              </div>
+              <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
+                <p className="text-lg text-gray-100">
+                  This project was a final semester project in my 3rd year at
+                  Limkokwing University of Creative Technology Sierra Leone.
+                  It's a full-stack application with signup and sign in
+                  functionalities.
+                </p>
+              </div>
+              <div className="mt-6">
+                <ul className="flex justify-start">
+                  <li className="text-lg mx-3">HTML & CSS</li>
+                  <li className="text-lg mx-3">Bootstrap</li>
+                  <li className="text-lg mx-3">PHP</li>
+                  <li className="text-lg mx-3">MySQL</li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-3/5 rounded-md">
+              <Image
+                src={onlineLearningPortal}
+                alt="Online Learning Portal"
+                className="shadow-4xl rounded-md"
+              />
+            </div>
+          </div>
+
+          {/* Third Portfolio Item */}
+          <div className="flex mt-16">
+            <div className="w-3/5 rounded-md">
+              <Image
+                src={cubeRestaurant}
+                alt="Cube Restaurant"
+                className="shadow-4xl rounded-md"
+              />
+            </div>
+            <div className="w-2/5 -ml-40 z-10">
+              <div className="mt-10 flex justify-end">
+                <h1 className="text-3xl logo-text">
+                  Restaurant Food Delivery Website
+                </h1>
+              </div>
+              <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
+                <p className="text-lg text-gray-100">
+                  A project based on creating awareness for businesses around
+                  Sierra Leone making their online presence possible. CUBE
+                  restaurant, a local restaurant was chosen for which this food
+                  order and delivery website was built.
+                </p>
+              </div>
+              <div className="mt-8">
+                <ul className="flex justify-end">
+                  <li className="text-lg mx-3">HTML & CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Fourth Portfolio Item */}
+          <div className="flex mt-16">
+            <div className="w-2/5 -mr-40 z-10">
+              <div className="mt-10">
+                <h1 className="text-3xl logo-text">Online Learning Portal</h1>
+              </div>
+              <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
+                <p className="text-lg text-gray-100">
+                  This project was a final semester project in my 3rd year at
+                  Limkokwing University of Creative Technology Sierra Leone.
+                  It's a full-stack application with signup and sign in
+                  functionalities.
+                </p>
+              </div>
+              <div className="mt-6">
+                <ul className="flex justify-start">
+                  <li className="text-lg mx-3">HTML & CSS</li>
+                  <li className="text-lg mx-3">Bootstrap</li>
+                  <li className="text-lg mx-3">PHP</li>
+                  <li className="text-lg mx-3">MySQL</li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-3/5 rounded-md">
+              <Image
+                src={onlineLearningPortal}
+                alt="Online Learning Portal"
+                className="shadow-4xl rounded-md"
+              />
+            </div>
           </div>
         </section>
 
