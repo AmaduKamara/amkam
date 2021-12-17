@@ -48,7 +48,8 @@ h6 {
 }
 
 .bg-btn {
-  background-color: #07bdf9;
+  /* background-color: #07bdf9; */
+  background-color: #0096c7;
 }
 
 .btn-border {
@@ -56,14 +57,12 @@ h6 {
 }
 
 .portfolio-bg-popover {
-  background-color: #118AB2;
+  background-color: #011e36;
 }
 
 .logo-text {
   color: #07bdf9;
 }
-
-
 
 /* Fixed Social Media Styles */
 .layout-main {
