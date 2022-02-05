@@ -4,6 +4,9 @@ import Link from "next/link";
 
 import onlineLearningPortal from "../public/images/portfolio-images/Online Learning Portal.png";
 import cubeRestaurant from "../public/images/portfolio-images/CUBE Restaurant Website.png";
+import amkamDevBootcamp from "../public/images/portfolio-images/Amkam DevBootcamp.png";
+import mdSeaFood from "../public/images/portfolio-images/MD Seafoods.png";
+import covidMetrics from "../public/images/portfolio-images/World COVID-19 Metrics data.png";
 import ArrowTop from "../components/icons/ArrowTop";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -62,10 +65,10 @@ export default function Home() {
               </div>
               <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
                 <p className="text-lg text-gray-100">
-                  A project based on creating awareness for businesses around
-                  Sierra Leone making their online presence possible. CUBE
-                  restaurant, a local restaurant was chosen for which this food
-                  order and delivery website was built.
+                  A project that is based on creating awareness for businesses
+                  around Sierra Leone and making their online presence possible.
+                  CUBE restaurant, a local restaurant was chosen for which this
+                  food order and delivery website were built.
                 </p>
               </div>
               <div className="mt-8">
@@ -112,23 +115,22 @@ export default function Home() {
           <div className="flex mt-16">
             <div className="w-3/5 rounded-md">
               <Image
-                src={cubeRestaurant}
+                src={amkamDevBootcamp}
                 alt="Cube Restaurant"
                 className="shadow-4xl rounded-md"
               />
             </div>
             <div className="w-2/5 -ml-40 z-10">
               <div className="mt-10 flex justify-end">
-                <h1 className="text-3xl logo-text">
-                  Restaurant Food Delivery Website
-                </h1>
+                <h1 className="text-3xl logo-text">Amkam DevBootcamp</h1>
               </div>
               <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
                 <p className="text-lg text-gray-100">
-                  A project based on creating awareness for businesses around
-                  Sierra Leone making their online presence possible. CUBE
-                  restaurant, a local restaurant was chosen for which this food
-                  order and delivery website was built.
+                  Amkam DevBootcamp is a school for people who want to become
+                  web developers and designers looking for a life-changing
+                  career. We do in-person and online training for all students
+                  from zero till you can build a complete website without the
+                  help of anyone.
                 </p>
               </div>
               <div className="mt-8">
