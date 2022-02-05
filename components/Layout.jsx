@@ -9,6 +9,7 @@ import {
   FaTwitterSquare,
   FaFacebookSquare,
   FaGithubSquare,
+  FaAngellist,
 } from "react-icons/fa";
 
 const Global = createGlobalStyle`
@@ -197,14 +198,6 @@ const Layout = ({ children }) => {
               </Link>
             </li>
             <li className="mt-4">
-              {" "}
-              <Link href="https://twitter.com/home">
-                <a target="_blank">
-                  <FaTwitterSquare className="text-4xl md:text-5xl h-text-color" />
-                </a>
-              </Link>
-            </li>
-            <li className="mt-4">
               <Link href="https://github.com/AmaduKamara">
                 <a target="_blank">
                   <FaGithubSquare className="text-4xl md:text-5xl h-text-color" />
@@ -212,8 +205,23 @@ const Layout = ({ children }) => {
               </Link>
             </li>
             <li className="mt-4">
+              <Link href="https://angel.co/u/devamkam">
+                <a target="_blank">
+                  <FaAngellist className="text-4xl md:text-5xl h-text-color" />
+                </a>
+              </Link>
+            </li>
+            <li className="mt-4">
               {" "}
-              <Link href="https://www.facebook.com/">
+              <Link href="https://twitter.com/DevAmkam">
+                <a target="_blank">
+                  <FaTwitterSquare className="text-4xl md:text-5xl h-text-color" />
+                </a>
+              </Link>
+            </li>
+            <li className="mt-4">
+              {" "}
+              <Link href="https://www.facebook.com/amadus.kamara.7">
                 <a target="_blank">
                   <FaFacebookSquare className="text-4xl md:text-5xl h-text-color" />
                 </a>
