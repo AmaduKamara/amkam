@@ -14,42 +14,42 @@ const Navbar = () => {
           <ul className="flex items-center">
             <li className="mx-5">
               <Link href="/">
-                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
+                <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Home
                 </a>
               </Link>
             </li>
             <li className="mx-5">
               <Link href="/">
-                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
+                <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   About
                 </a>
               </Link>
             </li>
             <li className="mx-5">
               <Link href="/">
-                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
+                <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Skills
                 </a>
               </Link>
             </li>
             <li className="mx-5">
               <Link href="/">
-                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
+                <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Services
                 </a>
               </Link>
             </li>
             <li className="mx-5">
               <Link href="/">
-                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
+                <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Portfolio
                 </a>
               </Link>
             </li>
             <li className="mx-5">
               <Link href="/">
-                <a className="text-white text-xl hover:text-blue-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
+                <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Contact
                 </a>
               </Link>
