@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../public/images/Amadu Kamara.jpg";
+
 import Check from "../components/icons/Check";
+import heroImage from "../public/images/Amadu Kamara.jpg";
+import amkam from "../public/images/AmaduKamara.jpg";
 
 const Hero = () => {
   return (
@@ -57,11 +59,11 @@ const Hero = () => {
 
       <div className="flex justify-center items-center order-first md:order-last px-12">
         <Image
-          src={heroImage}
+          src={amkam}
           alt="Amadu Kamara"
           className="rounded-full shadow-md"
-          width={420}
-          height={420}
+          width={520}
+          height={550}
         />
       </div>
     </section>
