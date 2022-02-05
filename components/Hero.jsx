@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="pt-10 order-last px-12 md:px-0">
         <h4 className="logo-text text-lg tracking-widest uppercase">Hello!</h4>
         <h1 className="font-semibold h-text-color text-4xl md:text-5xl lg:text-7xl my-2">
-          I'm Amadu Kamara
+          I&apos;m Amadu Kamara
         </h1>
         <ul className="mt-5">
           <li className="flex items-center mb-5 text-xl">
@@ -50,7 +50,7 @@ const Hero = () => {
         </ul>
         <button
           type="button"
-          className="bg-btn py-4 md:py-5 px-12 text-xl rounded-md text-white my-6"
+          className="bg-sky-500 hover:bg-sky-600 py-4 md:py-5 px-12 text-xl rounded-md text-white my-6"
         >
           Get in Touch
         </button>
