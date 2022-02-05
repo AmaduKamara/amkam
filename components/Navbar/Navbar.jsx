@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-// import {Menu} from "../icons/Menu";
 
 const Navbar = () => {
   return (
@@ -65,7 +64,6 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      {/* <Menu className="mobile-menu" /> */}
     </div>
   );
 };

@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 import Check from "../components/icons/Check";
-import heroImage from "../public/images/Amadu Kamara.jpg";
 import amkam from "../public/images/AmaduKamara.jpg";
 
 const Hero = () => {
