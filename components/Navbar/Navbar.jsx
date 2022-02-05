@@ -57,8 +57,11 @@ const Navbar = () => {
           </ul>
         </nav>
         <div>
-          <Link href="/">
-            <a className="text-white text-xl btn-border rounded-md py-2 px-6 transition duration-500 ease-in-out hover:bg-blue-400 transform hover:-translate-y-1 hover:scale-110">
+          <Link href="https://docs.google.com/document/d/1gWkUntRsRidAlwgOadUTdasFwnif9EOFi1q2V7VTeew/edit?usp=sharing">
+            <a
+              target="_blank"
+              className="text-white text-xl btn-border rounded-md py-2 px-6 transition duration-500 ease-in-out hover:bg-sky-500 transform hover:-translate-y-1 hover:scale-110"
+            >
               Resume
             </a>
           </Link>
