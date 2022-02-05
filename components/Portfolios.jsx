@@ -176,8 +176,9 @@ const Portfolios = () => {
           <div className="portfolio-bg-popover mt-4 rounded-md shadow-md py-6 px-8">
             <p className="text-lg text-gray-100">
               This project was a final semester project in my 3rd year at
-              Limkokwing University of Creative Technology Sierra Leone. It's a
-              full-stack application with signup and sign in functionalities.
+              Limkokwing University of Creative Technology Sierra Leone.
+              It&apos;s a full-stack application with signup and sign in
+              functionalities.
             </p>
           </div>
           <div className="mt-6">
