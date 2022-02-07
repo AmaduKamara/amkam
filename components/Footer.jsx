@@ -32,25 +32,13 @@ function Footer() {
         </div>
         <div className="flex justify-center mt-16">
           <div className="w-2/4 mr-12">
-            <p className="leading-loose text-justify text-lg text-gray-300">
-              Hello!, please feel free to say hello or have a coffee chat withe
+            <p className="leading-loose text-center text-lg text-gray-300">
+              Hello! <br /> Please feel free to say hello or have a coffee chat withe
               me. I would love to play my part in the growth of your business.
             </p>
           </div>
-          <div className="1/4 mr-12">
-            <h3 className="text-3xl font-semibold">Contacts</h3>
-            <ul>
-              <li className="text-gray-3">amaduskamara@gmail.com</li>
-            </ul>
-          </div>
-          <div className="w-1/4">
-            <h3 className="text-3xl font-semibold">Social Media</h3>
-            <ul>
-              <li className="text-gray-3">LinkedIn</li>
-            </ul>
-          </div>
         </div>
-        <div className="mt-20 flex justify-center w-full">
+        <div className="mt-12 flex justify-center w-full">
           <div>
             <button
               type="button"
