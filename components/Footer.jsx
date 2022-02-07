@@ -1,4 +1,7 @@
 import React from "react";
+import Link from "next/link";
+
+import ArrowTop from "../components/icons/ArrowTop";
 
 function Footer() {
   return (
