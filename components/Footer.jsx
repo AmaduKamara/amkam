@@ -33,9 +33,8 @@ function Footer() {
         <div className="flex justify-center mt-16">
           <div className="w-2/4 mr-12">
             <p className="leading-loose text-justify text-lg text-gray-300">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
-              amet ex quo repellat obcaecati nemo eveniet quam elit. Officiis
-              amet ex quo repellat obcaecati nemo eveniet quam
+              Hello!, please feel free to say hello or have a coffee chat withe
+              me. I would love to play my part in the growth of your business.
             </p>
           </div>
           <div className="1/4 mr-12">
