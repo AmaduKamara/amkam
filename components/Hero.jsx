@@ -27,7 +27,7 @@ const Hero = () => {
               <Check />
             </div>
             <span className="text-xl md:text-2xl text-gray-300">
-              UI/UX designer
+              Frontend Developer
             </span>
           </li>
           <li className="flex items-center mb-5 text-xl">
@@ -35,7 +35,7 @@ const Hero = () => {
               <Check />
             </div>
             <span className="text-xl md:text-2xl text-gray-300">
-              Frontend Developer
+              UI/UX designer
             </span>
           </li>
           <li className="flex items-center mb-5 text-xl">
