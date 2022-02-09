@@ -33,7 +33,7 @@ function Footer() {
         <div className="flex justify-center mt-16">
           <div className="w-2/4 mr-12">
             <p className="leading-loose text-center text-lg text-gray-300">
-              Hello! <br /> Please feel free to say hello or have a coffee chat withe
+              Hello! <br /> Please feel free to say hello or have a coffee chat with
               me. I would love to play my part in the growth of your business.
             </p>
           </div>
