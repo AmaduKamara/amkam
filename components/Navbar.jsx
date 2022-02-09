@@ -6,7 +6,7 @@ const Header = () => {
     <div className="bg-primary px-16 py-5 shadow-xl sticky top-0 z-50">
       <div className="container mx-auto px-16 flex justify-between items-center">
         <h1 className="text-white text-4xl">
-          <span className="logo-text">Dev</span> Amkam
+          <span className="logo-text">Dev</span>Amkam
         </h1>
         <nav>
           <ul className="flex items-center">
