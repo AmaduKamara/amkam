@@ -43,7 +43,7 @@ const Navbar = () => {
             <li className="mx-5">
               <Link href="/">
                 <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
-                  Portfolio
+                  Portfolios
                 </a>
               </Link>
             </li>
