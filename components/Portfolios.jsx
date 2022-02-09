@@ -44,6 +44,7 @@ const Portfolios = () => {
               <li className="text-lg mx-3">Redux</li>
               <li className="text-lg mx-3">TailwindCSS</li>
               <li className="text-lg mx-3">ESLint</li>
+              <li className="text-lg mx-3">Framer Motion</li>
             </ul>
           </div>
         </div>
