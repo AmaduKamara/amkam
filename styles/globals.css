@@ -93,6 +93,32 @@ h6 {
   margin-right: -22px;
 }
 
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #06b6d4 #fff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #06b6d4;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 30px;
+  border: 1px solid #06b5d4;
+}
+
+.box-shadow {
+  box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px rgba(17, 17, 26, 0.1) 0 16px 56px,
+    rgba(17, 17, 26, 0.1) 0 24px 80px;
+}
+
 @media (max-width: 768px) {
   .mobile-menu {
     display: block;

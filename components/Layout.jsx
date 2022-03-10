@@ -149,35 +149,35 @@ const Layout = ({ children }) => {
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/about">
               <a onClick={() => showNav(!nav)} href="#">
                 About
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/skills">
               <a onClick={() => showNav(!nav)} href="#">
                 Skills
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/services">
               <a onClick={() => showNav(!nav)} href="#">
                 Services
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/portfolios">
               <a onClick={() => showNav(!nav)} href="#">
                 Portfolio
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/contact">
               <a onClick={() => showNav(!nav)} href="#">
                 Contact
               </a>
@@ -191,19 +191,20 @@ const Layout = ({ children }) => {
         <div className="social-medias rounded-md flex justify-center items-center">
           <ul>
             <li>
-              <Link href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/">
-                <a target="_blank">
-                  <FaLinkedin className="text-4xl md:text-5xl h-text-color" />
-                </a>
-              </Link>
-            </li>
-            <li className="mt-4">
               <Link href="https://github.com/AmaduKamara">
                 <a target="_blank">
                   <FaGithubSquare className="text-4xl md:text-5xl h-text-color" />
                 </a>
               </Link>
             </li>
+            <li className="mt-4">
+              <Link href="https://www.linkedin.com/in/amadu-kamara-3b60a25b/">
+                <a target="_blank">
+                  <FaLinkedin className="text-4xl md:text-5xl h-text-color" />
+                </a>
+              </Link>
+            </li>
+
             <li className="mt-4">
               <Link href="https://angel.co/u/devamkam">
                 <a target="_blank">
