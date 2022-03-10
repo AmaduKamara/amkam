@@ -61,8 +61,8 @@ const Hero = () => {
           src={amkam}
           alt="Amadu Kamara"
           className="rounded-full shadow-md"
-          width={520}
-          height={550}
+          width={510}
+          height={520}
         />
       </div>
     </section>
