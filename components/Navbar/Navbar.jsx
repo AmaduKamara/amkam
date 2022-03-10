@@ -20,35 +20,35 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="mx-5">
-              <Link href="/">
+              <Link href="/about">
                 <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   About
                 </a>
               </Link>
             </li>
             <li className="mx-5">
-              <Link href="/">
+              <Link href="/skills">
                 <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Skills
                 </a>
               </Link>
             </li>
             <li className="mx-5">
-              <Link href="/">
+              <Link href="/services">
                 <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Services
                 </a>
               </Link>
             </li>
             <li className="mx-5">
-              <Link href="/">
+              <Link href="/portfolios">
                 <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Portfolios
                 </a>
               </Link>
             </li>
             <li className="mx-5">
-              <Link href="/">
+              <Link href="/contact">
                 <a className="text-white text-xl hover:text-sky-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 font-thin">
                   Contact
                 </a>
