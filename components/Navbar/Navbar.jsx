@@ -6,13 +6,13 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <div className="bg-primary py-5 shadow-xl sticky top-0 z-50">
+    <div className="py-5 shadow-xl sticky top-0 z-50 backdrop-blur transition-colors duration-500 lg:z-50 dark:border-gray-50/[0.06] bg-white supports-backdrop-blur:bg-white/95 dark:bg-cyan-900/75">
       <div className="px-24 flex justify-between items-center">
-        <div>
-          <h1 className="text-white text-4xl">
-            <span className="logo-text">Dev</span> Amkam
-          </h1>
-        </div>
+        <Link href="/">
+          <a className="text-white text-4xl">
+            <span className="logo-text">Dev</span>Amkam
+          </a>
+        </Link>
         <nav>
           <ul className="flex items-center">
             <li className="mx-5">
