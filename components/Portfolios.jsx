@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-import onlineLearningPortal from "../public/images/portfolio-images/Online Learning Portal.png";
+// import onlineLearningPortal from "../public/images/portfolio-images/Online Learning Portal.png";
 import cubeRestaurant from "../public/images/portfolio-images/CUBE Restaurant Website.png";
 import amkamDevBootcamp from "../public/images/portfolio-images/Amkam DevBootcamp.png";
 import mdSeaFood from "../public/images/portfolio-images/MD Seafoods.png";
@@ -63,7 +64,7 @@ const Portfolios = () => {
         </div>
       </div>
 
-      {/* Third Portfolio Item */}
+      {/* Second Portfolio Item */}
       <div className="flex mt-16">
         <div className="w-3/5 rounded-md">
           <a
@@ -101,7 +102,7 @@ const Portfolios = () => {
         </div>
       </div>
 
-      {/* Fourth Portfolio Item */}
+      {/* Third Portfolio Item */}
       <div className="flex mt-16">
         <div className="w-2/5 -mr-40 z-10">
           <div className="mt-10">
@@ -137,7 +138,7 @@ const Portfolios = () => {
         </div>
       </div>
 
-      {/* First Portfolio Item */}
+      {/* Fourth Portfolio Item */}
       <div className="flex mt-16">
         <div className="w-3/5 rounded-md">
           <Image
@@ -168,8 +169,16 @@ const Portfolios = () => {
         </div>
       </div>
 
-      {/* Second Portfolio Item */}
-      <div className="flex mt-16">
+      <div className="mt-16 flex justify-center">
+        <Link href="/portfolios">
+          <a className="bg-sky-500 hover:bg-sky-600 py-4 md:py-5 px-12 text-xl rounded-md text-white my-6">
+            Browse More
+          </a>
+        </Link>
+      </div>
+
+      {/* Portfolio Item */}
+      {/* <div className="flex mt-16">
         <div className="w-2/5 -mr-40 z-10">
           <div className="mt-10">
             <h1 className="text-3xl logo-text">Online Learning Portal</h1>
@@ -198,7 +207,7 @@ const Portfolios = () => {
             className="shadow-4xl rounded-md"
           />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
