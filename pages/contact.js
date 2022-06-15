@@ -24,7 +24,7 @@ const Contact = () => {
         <div className=" w-full md:flex md:justify-center md:w-9/12">
           <div className="w-full md:w-1/2 mr-24">
             <h1 className="font-semibold h-text-color text-4xl md:text-5xl lg:text-7xl my-2">
-              Let's Connect
+              Let&apos;s Connect
             </h1>
             <p className="text-sm pr-12 md:pr-0 md:text-lg">
               Do you need someone with my expertise, please reach out let&apos;s

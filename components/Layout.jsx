@@ -119,7 +119,6 @@ const Layout = ({ children }) => {
       </MainNav>
 
       {/* Mobile Navigation */}
-
       <MenuIcon nav={nav} onClick={() => showNav(!nav)}>
         <div />
         <div />

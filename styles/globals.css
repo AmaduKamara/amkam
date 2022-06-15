@@ -141,4 +141,8 @@ h6 {
     margin-right: 3%;
     position: fixed;
   }
+
+  .mobileLogo{
+    display: none;
+  }
 }
