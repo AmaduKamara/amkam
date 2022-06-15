@@ -37,14 +37,14 @@ const MenuIcon = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 1.5rem;
+  width: 1.8rem;
   background: transparent;
   cursor: pointer;
   border: none;
   z-index: 101;
 
   div {
-    width: 1.5rem;
+    width: 1.8rem;
     height: 0.2rem;
     background: #ffffff;
     border-radius: 5px;
@@ -53,13 +53,13 @@ const MenuIcon = styled.button`
     transition: opacity 300ms, transform 300ms;
 
     :first-child {
-      transform: ${({ nav }) => (nav ? "rotate(45deg)" : "rotate(0)")};
+      transform: ${({ nav }) => (nav ? "rotate(50deg)" : "rotate(0)")};
     }
     :nth-child(2) {
       opacity: ${({ nav }) => (nav ? "0" : "1")};
     }
     :nth-child(3) {
-      transform: ${({ nav }) => (nav ? "rotate(-45deg)" : "rotate(0)")};
+      transform: ${({ nav }) => (nav ? "rotate(-50deg)" : "rotate(0)")};
     }
   }
   @media (min-width: 768px) {
