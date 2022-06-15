@@ -20,41 +20,41 @@ const Contact = () => {
 
   return (
     <div className="pb-24">
-      <div className="text-white pt-56 flex justify-center">
-        <div className="flex justify-center w-9/12">
-          <div className="w-1/2 mr-24">
+      <div className="text-white pt-24 md:pt-56 flex justify-center">
+        <div className=" w-full md:flex md:justify-center md:w-9/12">
+          <div className="w-full md:w-1/2 mr-24">
             <h1 className="font-semibold h-text-color text-4xl md:text-5xl lg:text-7xl my-2">
               Let's Connect
             </h1>
-            <p>
+            <p className="text-sm pr-12 md:pr-0 md:text-lg">
               Do you need someone with my expertise, please reach out let's get
               started. You can reach me on the social media links at the right
               of the screen or through the following:
             </p>
 
-            <ul className="mt-12">
+            <ul className="mt-6 md:mt-12">
               <li className="flex mb-4">
-                <RiMapPinUserFill className="mr-3 text-4xl h-text-color" />
-                <span className="text-xl md:text-2xl font-thin">
+                <RiMapPinUserFill className="mr-3 text-2xl md:text-4xl h-text-color" />
+                <span className="md:text-2xl font-thin">
                   Freetown, Sierra Leone.
                 </span>
               </li>
               <li className="flex mb-4">
-                <HiOutlineMail className="mr-3 text-4xl h-text-color" />
-                <span className="text-xl md:text-2xl font-thin">
+                <HiOutlineMail className="mr-3 text-2xl md:text-4xl h-text-color" />
+                <span className="md:text-2xl font-thin">
                   amaduskamara@gmail.com
                 </span>
               </li>
               <li className="flex mb-4">
-                <FaPhoneAlt className="mr-3 text-4xl h-text-color" />
-                <span className="text-xl md:text-2xl font-thin">
+                <FaPhoneAlt className="mr-3 text-2xl md:text-4xl h-text-color" />
+                <span className="md:text-2xl font-thin">
                   +23276716997 -/- +23288010171
                 </span>
               </li>
             </ul>
           </div>
-          <div className="w-1/2 portfolio-bg-popover rounded-md shadow-xl">
-            <form className="w-full p-6" onSubmit={handleSubmit}>
+          <div className="w-full md:w-1/2 portfolio-bg-popover rounded-md shadow-xl mt-6 md:mt-0">
+            <form className="w-full p-3 md:p-6" onSubmit={handleSubmit}>
               <div className="mb-6">
                 <h2 className="text-2xl md:text-4xl lg:text-5xl">
                   Leave me a message
