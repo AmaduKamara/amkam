@@ -186,9 +186,9 @@ const Layout = ({ children }) => {
         </ul>
       </MenuLinks>
 
-      <main className="container mx-auto px-16 layout-main">
+      <main className="container mx-auto px-8 layout-main">
         <div>{children}</div>
-        <div className="social-medias rounded-md flex justify-center items-center">
+        <div className="social-medias rounded-md flex justify-center items-center z-50">
           <ul>
             <li>
               <Link href="https://github.com/AmaduKamara">

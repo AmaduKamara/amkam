@@ -20,7 +20,7 @@ const Contact = () => {
 
   return (
     <div className="pb-24">
-      <div className="text-white pt-24 md:pt-56 flex justify-center pr-4 sm:pr-0">
+      <div className="text-white pt-24 md:pt-56 flex justify-center mr-8 sm:mr-0 pr-4 sm:pr-0">
         <div className=" w-full md:flex md:justify-center md:w-9/12">
           <div className="w-full md:w-1/2 mr-24">
             <h1 className="font-semibold h-text-color text-4xl md:text-5xl lg:text-7xl my-2">
