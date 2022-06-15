@@ -48,7 +48,7 @@ const Contact = () => {
               <li className="flex mb-4">
                 <FaPhoneAlt className="mr-3 text-4xl h-text-color" />
                 <span className="text-xl md:text-2xl font-thin">
-                  +23276716997
+                  +23276716997 -/- +23288010171
                 </span>
               </li>
             </ul>
@@ -64,18 +64,22 @@ const Contact = () => {
                 <span className="block mb-1 text-lg">Fullname</span>
                 <input
                   type="text"
-                  value=""
                   placeholder="Enter fullname"
-                  className="w-full p-3 rounded-md"
+                  className="w-full p-3 rounded-md text-gray-500"
+                  onChange={(e) => setFullName(e.target.value)}
+                  value={fullName}
+                  required
                 />
               </label>
               <label className="mb-4 block">
                 <span className="block mb-1 text-lg">Email</span>
                 <input
-                  type="text"
-                  value=""
-                  placeholder="Enter fullname"
-                  className="w-full p-3 rounded-md"
+                  type="email"
+                  placeholder="Enter email"
+                  className="w-full p-3 rounded-md text-gray-500"
+                  onChange={(e) => Email(e.target.value)}
+                  value={email}
+                  required
                 />
               </label>
               <label className="mb-2 block">
@@ -84,6 +88,9 @@ const Contact = () => {
                   rows="5"
                   className="w-full p-3 rounded-md text-gray-500"
                   placeholder="Write your message..."
+                  onChange={(e) => setMessage(e.target.value)}
+                  value={message}
+                  required
                 ></textarea>
               </label>
               <button
